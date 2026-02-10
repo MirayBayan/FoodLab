@@ -1,8 +1,8 @@
 # 🧪 FoodLab – Gıda Analiz Takip Sistemi
 
-FoodLab, gıda mühendisliği laboratuvarlarında yapılan temel analizlerin (Nem Tayini,
-Kül Tayini, Yağ Tayini) web tabanlı olarak hesaplanmasını ve kayıt altına alınmasını sağlayan
-bir frontend uygulamasıdır.
+FoodLab, gıda mühendisliği laboratuvarlarında yapılan temel analizlerin (Nem
+Tayini, Kül Tayini, Yağ Tayini) web tabanlı olarak hesaplanmasını ve kayıt
+altına alınmasını sağlayan bir frontend uygulamasıdır.
 
 Bu proje, Web Geliştirme eğitimi kapsamında ReactJS kullanılarak geliştirilmiş
 olup, eğitimde işlenen TODO App mantığı baz alınarak CRUD işlemleri
@@ -13,8 +13,8 @@ uygulanmıştır.
 ## 🎯 Proje Amacı
 
 Bu proje fikri, gıda mühendisliği okuyan bir arkadaşımın laboratuvar analizleri
-için merkezi ve basit bir web tabanlı hesaplama ve takip sistemi olmadığını belirtmesi
-üzerine ortaya çıkmıştır. Bu ihtiyaçtan yola çıkılarak, temel analiz
+için merkezi ve basit bir web tabanlı hesaplama ve takip sistemi olmadığını
+belirtmesi üzerine ortaya çıkmıştır. Bu ihtiyaçtan yola çıkılarak, temel analiz
 hesaplamalarını yapabilen ve sonuçları numune bazlı saklayabilen bir uygulama
 geliştirilmiştir.
 
@@ -57,8 +57,8 @@ sonuçları hesaplayan ve kayıt altına alan basit bir takip sistemidir.
 
 ➕ Büyük/Küçük Harf Duyarsız Numune Eşleştirme
 
-Uygulamada numune isimleri büyük/küçük harf duyarsız şekilde karşılaştırılmaktadır.
-Bu sayede:
+Uygulamada numune isimleri büyük/küçük harf duyarsız şekilde
+karşılaştırılmaktadır. Bu sayede:
 
 peynir
 
@@ -68,8 +68,7 @@ PeYnir
 
 gibi farklı yazımlar aynı numune olarak algılanır ve tek kart altında toplanır.
 
-Bu özellik, kullanıcı kaynaklı yazım farklılıklarının veri bütünlüğünü bozmasını engeller.
----
+## Bu özellik, kullanıcı kaynaklı yazım farklılıklarının veri bütünlüğünü bozmasını engeller.
 
 ## 🧮 Kullanılan Hesaplama Formülleri
 
@@ -87,18 +86,17 @@ Yağ (%) = (Yağ Ağırlığı / Numune Ağırlığı) × 100
 
 ---
 
+📸 Uygulama Görselleri
+
+![Ana ekran](screenshots/screencshot1.png)
+![Kart görünümü](screenshots/screencshot2.png)
+
+---
+
 ## 📁 Proje Klasör Yapısı
 
-src/
-├── components/
-│   └── TestItem.jsx
-├── pages/
-│   └── Home.jsx
-├── App.jsx
-├── main.jsx
-├── index.css
-public/
-└── favicon.svg
+src/ ├── components/ │ └── TestItem.jsx ├── pages/ │ └── Home.jsx ├── App.jsx
+├── main.jsx ├── index.css public/ └── favicon.svg
 
 ---
 
@@ -133,3 +131,4 @@ Bu proje eğitim amaçlı geliştirilmiştir. Gerçek laboratuvar cihazlarının
 
 👩‍💻 Geliştirici
 Miray Bayan
+```
