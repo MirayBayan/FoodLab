@@ -1,7 +1,7 @@
 # 🧪 FoodLab – Gıda Analiz Takip Sistemi
 
-FoodLab, gıda mühendisliği laboratuvarlarında yapılan temel analizlerin (Nem,
-Kül, Yağ) web tabanlı olarak hesaplanmasını ve kayıt altına alınmasını sağlayan
+FoodLab, gıda mühendisliği laboratuvarlarında yapılan temel analizlerin (Nem Tayini,
+Kül Tayini, Yağ Tayini) web tabanlı olarak hesaplanmasını ve kayıt altına alınmasını sağlayan
 bir frontend uygulamasıdır.
 
 Bu proje, Web Geliştirme eğitimi kapsamında ReactJS kullanılarak geliştirilmiş
@@ -13,7 +13,7 @@ uygulanmıştır.
 ## 🎯 Proje Amacı
 
 Bu proje fikri, gıda mühendisliği okuyan bir arkadaşımın laboratuvar analizleri
-için merkezi ve basit bir web tabanlı takip sistemi olmadığını belirtmesi
+için merkezi ve basit bir web tabanlı hesaplama ve takip sistemi olmadığını belirtmesi
 üzerine ortaya çıkmıştır. Bu ihtiyaçtan yola çıkılarak, temel analiz
 hesaplamalarını yapabilen ve sonuçları numune bazlı saklayabilen bir uygulama
 geliştirilmiştir.
@@ -55,6 +55,20 @@ sonuçları hesaplayan ve kayıt altına alan basit bir takip sistemidir.
 - Responsive arayüz
 - Modern ve sade tasarım
 
+➕ Büyük/Küçük Harf Duyarsız Numune Eşleştirme
+
+Uygulamada numune isimleri büyük/küçük harf duyarsız şekilde karşılaştırılmaktadır.
+Bu sayede:
+
+peynir
+
+Peynir
+
+PeYnir
+
+gibi farklı yazımlar aynı numune olarak algılanır ve tek kart altında toplanır.
+
+Bu özellik, kullanıcı kaynaklı yazım farklılıklarının veri bütünlüğünü bozmasını engeller.
 ---
 
 ## 🧮 Kullanılan Hesaplama Formülleri
@@ -74,3 +88,48 @@ Yağ (%) = (Yağ Ağırlığı / Numune Ağırlığı) × 100
 ---
 
 ## 📁 Proje Klasör Yapısı
+
+src/
+├── components/
+│   └── TestItem.jsx
+├── pages/
+│   └── Home.jsx
+├── App.jsx
+├── main.jsx
+├── index.css
+public/
+└── favicon.svg
+
+---
+
+## 🚀 Kurulum ve Çalıştırma
+
+Projeyi lokal ortamda çalıştırmak için:
+
+1. Repository’i klonlayın:
+
+```bash
+git clone https://github.com/KULLANICI_ADIN/foodlab.git
+Proje klasörüne girin:
+
+cd foodlab
+Gerekli paketleri yükleyin:
+
+npm install
+Projeyi başlatın:
+
+npm run dev
+Tarayıcıda aşağıdaki adres üzerinden erişebilirsiniz:
+
+http://localhost:5173
+
+🌍 Canlı Demo
+Proje Netlify üzerinden yayına alınmıştır:
+
+🔗 https://BURAYA_NETLIFY_LINKİNİ_KOY.netlify.app
+
+📝 Not
+Bu proje eğitim amaçlı geliştirilmiştir. Gerçek laboratuvar cihazlarının yerine geçmez, yalnızca girilen ölçüm değerlerine göre hesaplama yapan ve sonuçları kayıt altına alan bir frontend uygulamasıdır.
+
+👩‍💻 Geliştirici
+Miray Bayan
