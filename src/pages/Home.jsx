@@ -37,7 +37,7 @@ export default function Home() {
       r = (netLast / netFirst) * 100;
     }
     if (form.testType === 'Yağ') {
-      r = (netFirst / last) * 100;
+      r = ((netFirst - netLast) / netFirst) * 100;
     }
     setForm({ ...form, result: r.toFixed(2) });
   };
