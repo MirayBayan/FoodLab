@@ -128,11 +128,6 @@ Proje Netlify üzerinden yayına alınmıştır:
 
 🔗 https://BURAYA_NETLIFY_LINKİNİ_KOY.netlify.app
 
-📸 Ekran Görüntüsü
-<img width="662" height="743" alt="Ekran görüntüsü1" src="https://github.com/user-attachments/assets/edc8eeaf-a29b-4ce9-b9cd-5d00d686128e" />
-<img width="767" height="882" alt="Ekran görüntüsü2" src="https://github.com/user-attachments/assets/8d50b204-e19d-4627-83e2-ffb4ae4d581d" />
-
-
 📝 Not
 Bu proje eğitim amaçlı geliştirilmiştir. Gerçek laboratuvar cihazlarının yerine geçmez, yalnızca girilen ölçüm değerlerine göre hesaplama yapan ve sonuçları kayıt altına alan bir frontend uygulamasıdır.
 
