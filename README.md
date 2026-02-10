@@ -127,27 +127,6 @@ foodlab/
 
 ---
 
-## 🚀 Kurulum ve Çalıştırma
-
-Projeyi lokal ortamda çalıştırmak için:
-
-1. Repository’i klonlayın:
-
-```bash
-git clone https://github.com/KULLANICI_ADIN/foodlab.git
-Proje klasörüne girin:
-
-cd foodlab
-Gerekli paketleri yükleyin:
-
-npm install
-Projeyi başlatın:
-
-npm run dev
-Tarayıcıda aşağıdaki adres üzerinden erişebilirsiniz:
-
-http://localhost:5173
-
 🌍 Canlı Demo
 Proje Netlify üzerinden yayına alınmıştır:
 
