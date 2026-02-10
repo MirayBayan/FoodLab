@@ -1,7 +1,7 @@
 # 🧪 FoodLab – Gıda Analiz Takip Sistemi
 
-FoodLab, gıda mühendisliği laboratuvarlarında yapılan temel analizlerin (Nem,
-Kül, Yağ) web tabanlı olarak hesaplanmasını ve kayıt altına alınmasını sağlayan
+FoodLab, gıda mühendisliği laboratuvarlarında yapılan temel analizlerin (Nem Tayini,
+Kül Tayini, Yağ Tayini) web tabanlı olarak hesaplanmasını ve kayıt altına alınmasını sağlayan
 bir frontend uygulamasıdır.
 
 Bu proje, Web Geliştirme eğitimi kapsamında ReactJS kullanılarak geliştirilmiş
