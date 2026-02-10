@@ -96,9 +96,34 @@ Yağ (%) = (Yağ Ağırlığı / Numune Ağırlığı) × 100
 ---
 
 ## 📁 Proje Klasör Yapısı
+foodlab/
+│
+├── public/
+│
+├── screenshots/          # README için uygulama ekran görüntüleri
+│   ├── screenshot1.png
+│   └── screenshot2.png
+│
+├── src/
+│   ├── components/
+│   │   └── TestItem.jsx
+│   │
+│   ├── pages/
+│   │   └── Home.jsx
+│   │
+│   ├── interfaces/
+│   │   └── Test.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
 
-src/ ├── components/ │ └── TestItem.jsx ├── pages/ │ └── Home.jsx ├── App.jsx
-├── main.jsx ├── index.css public/ └── favicon.svg
 
 ---
 
