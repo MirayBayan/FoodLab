@@ -55,6 +55,20 @@ sonuçları hesaplayan ve kayıt altına alan basit bir takip sistemidir.
 - Responsive arayüz
 - Modern ve sade tasarım
 
+➕ Büyük/Küçük Harf Duyarsız Numune Eşleştirme
+
+Uygulamada numune isimleri büyük/küçük harf duyarsız şekilde karşılaştırılmaktadır.
+Bu sayede:
+
+peynir
+
+Peynir
+
+PeYnir
+
+gibi farklı yazımlar aynı numune olarak algılanır ve tek kart altında toplanır.
+
+Bu özellik, kullanıcı kaynaklı yazım farklılıklarının veri bütünlüğünü bozmasını engeller.
 ---
 
 ## 🧮 Kullanılan Hesaplama Formülleri
@@ -74,3 +88,53 @@ Yağ (%) = (Yağ Ağırlığı / Numune Ağırlığı) × 100
 ---
 
 ## 📁 Proje Klasör Yapısı
+
+src/
+├── components/
+│   └── TestItem.jsx
+├── pages/
+│   └── Home.jsx
+├── App.jsx
+├── main.jsx
+├── index.css
+public/
+└── favicon.svg
+
+---
+
+## 🚀 Kurulum ve Çalıştırma
+
+Projeyi lokal ortamda çalıştırmak için:
+
+1. Repository’i klonlayın:
+
+```bash
+git clone https://github.com/KULLANICI_ADIN/foodlab.git
+Proje klasörüne girin:
+
+cd foodlab
+Gerekli paketleri yükleyin:
+
+npm install
+Projeyi başlatın:
+
+npm run dev
+Tarayıcıda aşağıdaki adres üzerinden erişebilirsiniz:
+
+http://localhost:5173
+
+🌍 Canlı Demo
+Proje Netlify üzerinden yayına alınmıştır:
+
+🔗 https://BURAYA_NETLIFY_LINKİNİ_KOY.netlify.app
+
+📸 Ekran Görüntüsü
+<img width="662" height="743" alt="Ekran görüntüsü1" src="https://github.com/user-attachments/assets/edc8eeaf-a29b-4ce9-b9cd-5d00d686128e" />
+<img width="767" height="882" alt="Ekran görüntüsü2" src="https://github.com/user-attachments/assets/8d50b204-e19d-4627-83e2-ffb4ae4d581d" />
+
+
+📝 Not
+Bu proje eğitim amaçlı geliştirilmiştir. Gerçek laboratuvar cihazlarının yerine geçmez, yalnızca girilen ölçüm değerlerine göre hesaplama yapan ve sonuçları kayıt altına alan bir frontend uygulamasıdır.
+
+👩‍💻 Geliştirici
+Miray Bayan
