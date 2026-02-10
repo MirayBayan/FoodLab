@@ -13,7 +13,7 @@ uygulanmıştır.
 ## 🎯 Proje Amacı
 
 Bu proje fikri, gıda mühendisliği okuyan bir arkadaşımın laboratuvar analizleri
-için merkezi ve basit bir web tabanlı takip sistemi olmadığını belirtmesi
+için merkezi ve basit bir web tabanlı hesaplama ve takip sistemi olmadığını belirtmesi
 üzerine ortaya çıkmıştır. Bu ihtiyaçtan yola çıkılarak, temel analiz
 hesaplamalarını yapabilen ve sonuçları numune bazlı saklayabilen bir uygulama
 geliştirilmiştir.
