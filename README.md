@@ -151,7 +151,7 @@ http://localhost:5173
 🌍 Canlı Demo
 Proje Netlify üzerinden yayına alınmıştır:
 
-🔗 https://BURAYA_NETLIFY_LINKİNİ_KOY.netlify.app
+🔗 https://wonderful-licorice-fd1db0.netlify.app/
 
 📝 Not
 Bu proje eğitim amaçlı geliştirilmiştir. Gerçek laboratuvar cihazlarının yerine geçmez, yalnızca girilen ölçüm değerlerine göre hesaplama yapan ve sonuçları kayıt altına alan bir frontend uygulamasıdır.
