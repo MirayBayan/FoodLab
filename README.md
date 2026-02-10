@@ -88,8 +88,10 @@ Yağ (%) = (Yağ Ağırlığı / Numune Ağırlığı) × 100
 
 📸 Uygulama Görselleri
 
-![Ana ekran](screenshots/screencshot1.png)
-![Kart görünümü](screenshots/screencshot2.png)
+<div style="display:flex; gap:20px;">
+  <img src="screenshots/screenshot1.png" width="250" />
+  <img src="screenshots/screenshot2.png" width="250" />
+</div>
 
 ---
 
